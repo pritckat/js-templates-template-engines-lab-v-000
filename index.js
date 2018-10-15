@@ -4,5 +4,5 @@ function createPost() {
 }
 
 function postComment() {
-
+  let commentTemplate = _.template(document.getElementById("comment-template").innerHTML);
 }
